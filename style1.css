@@ -1,0 +1,35 @@
+.header{
+  width:100%;
+  height:80px;
+}
+#heading{
+  width: 100%;
+  height 100px;
+  color:red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.separate{
+  color:grey;
+}
+#main1,#main2,#main3,#main4,#main5{
+  display:grid;
+  grid-template-columns: 200px 300px 200px;
+  grid-template-rows: 30px 30px 30px 30px 30px;
+  margin-right:20px;
+  padding:20px;
+}
+#main{
+  display: flexbox;
+  color: gray;
+  grid-template-columns: 200px 300px 200px;
+  grid-template-rows: 100px;
+  grid-template-areas:
+  "chignesh . monkey"
+}
+#chignesh{
+  grid-area: chignesh;
+}
+#monkey{
+  grid-area: monkey ;
+}
+
