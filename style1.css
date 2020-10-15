@@ -15,21 +15,28 @@
   display:grid;
   grid-template-columns: 200px 300px 200px;
   grid-template-rows: 30px 30px 30px 30px 30px;
-  margin-right:20px;
+  margin-left:45px;
   padding:20px;
+  height:80%;
 }
 #main{
   display: flexbox;
   color: gray;
   grid-template-columns: 200px 300px 200px;
   grid-template-rows: 100px;
-  grid-template-areas:
-  "chignesh . monkey"
 }
-#chignesh{
-  grid-area: chignesh;
+#flex{
+  justify-self: right;
+  align-items: center;
+  background-color: blue;
+  height: 50px;
+  width: 100px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border:1px solid blue;
+
 }
-#monkey{
-  grid-area: monkey ;
-}
+
 
