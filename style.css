@@ -71,7 +71,7 @@ a,p{
   border:1px solid blue;
 }
 #advanced{
-  grid-area: advanced;
+ grid-area: advanced;
   justify-self: center;
   align-items: center;
   background-color: blue;
