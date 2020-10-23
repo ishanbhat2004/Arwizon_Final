@@ -39,18 +39,3 @@ html{
 #pommy{
   grid-area: pommy;
 }
-
-#search{
-  border: olive;
-  font-size: 15px;
-  color: #5F6368;
-  margin right: 15px;
-  padding: 15px 20px 15px 20px;
-  border-radius: 5px;
-  margin up: 5px;
-  margin down: 5px;
-  width: 150px;
-}
-
-
-
